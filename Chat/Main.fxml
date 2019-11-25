@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TreeView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<Group xmlns="http://javafx.com/javafx/8.0.999-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.hbuas.chat.control.MainControl">
+   <children>
+      <AnchorPane prefHeight="500.0" prefWidth="300.0">
+         <children>
+            <VBox prefHeight="500.0" prefWidth="300.0">
+               <children>
+                  <HBox prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fx:id="image" fitHeight="80.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+                           <HBox.margin>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </HBox.margin>
+                           <image>
+                              <Image url="@/images/default.jpg" />
+                           </image>
+                        </ImageView>
+                        <VBox prefHeight="100.0" prefWidth="202.0">
+                           <children>
+                              <Label fx:id="nickname" prefHeight="33.0" prefWidth="169.0" text="昵称" textAlignment="CENTER">
+                                 <VBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </VBox.margin>
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="46.0" prefWidth="191.0" text="个性签名显示区域" wrapText="true">
+                                 <VBox.margin>
+                                    <Insets left="10.0" />
+                                 </VBox.margin>
+                                 <font>
+                                    <Font name="System Italic" size="13.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+                  <ScrollPane prefHeight="400.0" prefWidth="300.0">
+                     <content>
+                        <TreeView fx:id="tree" prefHeight="398.0" prefWidth="298.0" />
+                     </content>
+                  </ScrollPane>
+               </children>
+            </VBox>
+         </children></AnchorPane>
+   </children>
+</Group>

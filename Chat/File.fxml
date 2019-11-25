@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+<Group xmlns="http://javafx.com/javafx/8.0.999-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.hbuas.chat.control.FileControl">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="300.0">
+         <children>
+            <VBox layoutX="-2.0" prefHeight="200.0" prefWidth="300.0">
+               <children>
+                  <Label prefHeight="25.0" prefWidth="300.0" text="文件名称：xxxx">
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                  </Label>
+                  <Label prefHeight="25.0" prefWidth="300.0" text="文件路径：c:\windows\test\1.txt">
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                  </Label>
+                  <Label prefHeight="25.0" prefWidth="300.0" text="文件大小：1024000KB">
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                  </Label>
+                  <Label prefHeight="25.0" prefWidth="300.0" text="文件格式：text">
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                  </Label>
+                  <Label prefHeight="25.0" prefWidth="300.0" />
+                  <FlowPane prefHeight="19.0" prefWidth="300.0">
+                     <children>
+                        <Label prefHeight="27.0" prefWidth="83.0" text="传输进度：">
+                           <padding>
+                              <Insets left="10.0" />
+                           </padding>
+                        </Label>
+                        <ProgressBar prefHeight="26.0" prefWidth="211.0" progress="0.0" />
+                     </children>
+                  </FlowPane>
+                  <GridPane prefHeight="47.0" prefWidth="305.0">
+                    <columnConstraints>
+                        <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <Button mnemonicParsing="false" text="停止传输" GridPane.columnIndex="2" />
+                        <Button mnemonicParsing="false" text="关闭窗口" GridPane.columnIndex="3" />
+                        <Button mnemonicParsing="false" text="开始发送" GridPane.columnIndex="1" />
+                        <Button mnemonicParsing="false" text="选择文件" />
+                     </children>
+                  </GridPane>
+               </children></VBox>
+         </children>
+      </AnchorPane>
+   </children>
+</Group>
