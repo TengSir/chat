@@ -33,7 +33,7 @@
                                  <children>
                                     <ImageView fitHeight="120.0" fitWidth="120.0" pickOnBounds="true" preserveRatio="true">
                                        <image>
-                                       <!-- <Image url="D:/workspace/Chat/images/default.jpg" />-->
+                                          <Image url="file:images/default.jpg" />
                                        </image></ImageView>
                                     <Label contentDisplay="CENTER" prefHeight="33.0" prefWidth="126.0" text="好友昵称" textAlignment="CENTER" textOverrun="WORD_ELLIPSIS">
                                        <font>
@@ -85,7 +85,186 @@
                                                 <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                                             </rowConstraints>
                                              <children>
-                                              
+                                                <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="0" GridPane.rowIndex="0">
+                                                   <image>
+                                                      <Image url="file:images/express/1.gif" />
+                                                   </image>
+                                                </ImageView>
+                                                <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="0">
+                                                   <image>
+                                                      <Image url="file:images/express/2.gif" />
+                                                   </image>
+                                                </ImageView>
+                                                <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="0">
+                                                   <image>
+                                                      <Image url="file:images/express/3.gif" />
+                                                   </image>
+                                                </ImageView>
+                                                <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="0">
+                                                   <image>
+                                                      <Image url="file:images/express/4.gif" />
+                                                   </image>
+                                                </ImageView>
+                                                <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="0" GridPane.rowIndex="1">
+                                                   <image>
+                                                      <Image url="file:images/express/5.gif" />
+                                                   </image>
+                                                </ImageView>
+                                                <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                                                   <image>
+                                                      <Image url="file:images/express/6.gif" />
+                                                   </image>
+                                                </ImageView>
+                                                <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                                                   <image>
+                                                      <Image url="file:images/express/7.gif" />
+                                                   </image>
+                                                </ImageView>
+                                                <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                                                   <image>
+                                                      <Image url="file:images/express/8.gif" />
+                                                   </image>
+                                                </ImageView>
+                                                <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="0" GridPane.rowIndex="2">
+                                                   <image>
+                                                      <Image url="file:images/express/9.gif" />
+                                                   </image>
+                                                </ImageView>
+                                                 <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                                                     <image>
+                                                         <Image url="file:images/express/10.gif" />
+                                                     </image>
+                                                 </ImageView>
+                                                 <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                                                     <image>
+                                                         <Image url="file:images/express/11.gif" />
+                                                     </image>
+                                                 </ImageView>
+                                                 <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="2">
+                                                     <image>
+                                                         <Image url="file:images/express/12.gif" />
+                                                     </image>
+                                                 </ImageView>
+                                                 <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="0" GridPane.rowIndex="3">
+                                                     <image>
+                                                         <Image url="file:images/express/13.gif" />
+                                                     </image>
+                                                 </ImageView>
+                                                 <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                                                     <image>
+                                                         <Image url="file:images/express/14.gif" />
+                                                     </image>
+                                                 </ImageView>
+                                                 <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                                                     <image>
+                                                         <Image url="file:images/express/15.gif" />
+                                                     </image>
+                                                 </ImageView>
+                                                 <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="3">
+                                                     <image>
+                                                         <Image url="file:images/express/16.gif" />
+                                                     </image>
+                                                 </ImageView>
+                                                 <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="0" GridPane.rowIndex="4">
+                                                     <image>
+                                                         <Image url="file:images/express/17.gif" />
+                                                     </image>
+                                                 </ImageView>
+                                                 <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                                                     <image>
+                                                         <Image url="file:images/express/18.gif" />
+                                                     </image>
+                                                 </ImageView>
+                                                 <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="4">
+                                                     <image>
+                                                         <Image url="file:images/express/19.gif" />
+                                                     </image>
+                                                 </ImageView>
+                                                 <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="4">
+                                                     <image>
+                                                         <Image url="file:images/express/20.gif" />
+                                                     </image>
+                                                 </ImageView>
+                                                 <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="0" GridPane.rowIndex="5">
+                                                     <image>
+                                                         <Image url="file:images/express/21.gif" />
+                                                     </image>
+                                                 </ImageView>
+                                                 <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                                                     <image>
+                                                         <Image url="file:images/express/22.gif" />
+                                                     </image>
+                                                 </ImageView>
+                                                 <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="5">
+                                                     <image>
+                                                         <Image url="file:images/express/23.gif" />
+                                                     </image>
+                                                 </ImageView>
+                                                 <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="5">
+                                                     <image>
+                                                         <Image url="file:images/express/24.gif" />
+                                                     </image>
+                                                 </ImageView>
+                                                 <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="0" GridPane.rowIndex="6">
+                                                     <image>
+                                                         <Image url="file:images/express/25.gif" />
+                                                     </image>
+                                                 </ImageView>
+                                                 <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="6">
+                                                     <image>
+                                                         <Image url="file:images/express/26.gif" />
+                                                     </image>
+                                                 </ImageView>
+                                                 <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="6">
+                                                     <image>
+                                                         <Image url="file:images/express/27.gif" />
+                                                     </image>
+                                                 </ImageView>
+                                                 <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="6">
+                                                     <image>
+                                                         <Image url="file:images/express/28.gif" />
+                                                     </image>
+                                                 </ImageView>
+                                                 <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="0" GridPane.rowIndex="7">
+                                                     <image>
+                                                         <Image url="file:images/express/29.gif" />
+                                                     </image>
+                                                 </ImageView>
+                                                 <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="7">
+                                                     <image>
+                                                         <Image url="file:images/express/30.gif" />
+                                                     </image>
+                                                 </ImageView>
+                                                 <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="7">
+                                                     <image>
+                                                         <Image url="file:images/express/31.gif" />
+                                                     </image>
+                                                 </ImageView>
+                                                 <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="7">
+                                                     <image>
+                                                         <Image url="file:images/express/32.gif" />
+                                                     </image>
+                                                 </ImageView>
+                                                 <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="0" GridPane.rowIndex="8">
+                                                     <image>
+                                                         <Image url="file:images/express/33.gif" />
+                                                     </image>
+                                                 </ImageView>
+                                                 <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="8">
+                                                     <image>
+                                                         <Image url="file:images/express/34.gif" />
+                                                     </image>
+                                                 </ImageView>
+                                                 <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="8">
+                                                     <image>
+                                                         <Image url="file:images/express/35.gif" />
+                                                     </image>
+                                                 </ImageView>
+                                                 <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="8">
+                                                     <image>
+                                                         <Image url="file:images/express/36.gif" />
+                                                     </image>
+                                                 </ImageView>
                                              </children>
                                           </GridPane>
                                        </content>

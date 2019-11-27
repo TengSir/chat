@@ -102,7 +102,6 @@ public class LoginControl implements Initializable {
             }
         });
 
-        
         //UI渲染完毕，则应该让底层的socket对象初始化，准备后期可以和服务器通讯
         try {
 			client =new Socket(SocketConfig.serverIP,SocketConfig.port);
@@ -110,11 +109,11 @@ public class LoginControl implements Initializable {
 			
 			  oOut=new ObjectOutputStream(client.getOutputStream());
 			  oIn=new ObjectInputStream(client.getInputStream());
+			  
 		} catch (IOException e) {
 			System.out.println("无法连接到服务器端");
 			Alert a=new Alert(Alert.AlertType.ERROR);
-			a.setTitle("错误提示");
-			a.setContentText("无法连接服务器，请检查网络！");
+			a.setContentText("无法连接到服务器端");
 			a.show();
 		}  
 
